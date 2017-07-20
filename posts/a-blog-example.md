@@ -1,6 +1,6 @@
 Subject:	A blog example
 Date:		2017-07-20
-Author:		Reyk Floeter
+From:		Reyk Floeter
 Tags:		blog
 
 This is just an example.  It will be displayed in the index because it
