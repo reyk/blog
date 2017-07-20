@@ -1,0 +1,15 @@
+<div class="col-md-4 col-sm-4">
+  <h3>Latest</h3>
+  <nav data-sblg-nav="1" data-sblg-navcontent="1" data-sblg-navsz="5" data-sblg-navtag="blog">
+    <div>
+      <time datetime="${sblg-datetime}">${sblg-datetime-fmt|%Y-%m-%d}</time> <a href="${sblg-base}">${sblg-titletext}</a>
+    </div>
+  </nav>
+  <div>
+    <a href="tags/blog">All posts &#8594;</a>
+  </div>
+  <h3>Tags</h3>
+  <div class="tags">
+    @TAGS@
+  </div>
+</div>

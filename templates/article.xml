@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base href="../" />
+    @HEADER@
+    <title>reykfloeter - ${sblg-titletext}</title>
+  </head>
+  <body>
+    <header class="container-fluid text-center align-center">
+      <h1><a href=".">reykfloeter</a> &#8211; blog</h1>
+    </header>
+    @NAVBAR@
+    <section class="container-fluid">
+      <div class="row">
+        <div class="col-md-offset-1 col-md-6 col-sm-8">
+          <article data-sblg-article="1" data-sblg-permlink="0" />
+        </div>
+        @SIDEBAR@
+      </div>
+    </section>
+    @FOOTER@
+  </body>
+</html>

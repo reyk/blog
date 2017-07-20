@@ -1,0 +1,5 @@
+          <div id="info" data-sblg-permlink="1">
+            <a href="${sblg-base}">Permalink</a>,
+            <a href="${sblg-base}.md">Source</a>,
+            <a href="posts/tag-cloud.html">Tags:</a> ${sblg-tags}
+          </div>

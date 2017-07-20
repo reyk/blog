@@ -1,0 +1,14 @@
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container-fluid col-md-offset-1">
+        <div id="navbar">
+          <ul class="nav navbar-nav">
+            <li><a href="." title="Home"><i class="fa fa-home"></i><noscript>Home</noscript></a></li>
+            <li><a href="tags/blog" title="Archive"><i class="fa fa-archive"></i><noscript>Archive</noscript></a></li>
+            <li><a href="atom.xml" title="Atom RSS feed"><i class="fa fa-rss"></i><noscript>RSS</noscript></a></li>
+            <li><a href="https://twitter.com/reykfloeter" title="@reykfloeter on Twitter"><i class="fa fa-twitter"></i><noscript>Twitter</noscript></a></li>
+            <li><a href="https://www.linkedin.com/in/reykfloeter/" title="reykfloeter on linkedin"><i class="fa fa-linkedin"></i><noscript>linkedin</noscript></a></li>
+            <li><a href="https://github.com/reyk/" title="reyk on GitHub"><i class="fa fa-github"></i><noscript>GitHub</noscript></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>

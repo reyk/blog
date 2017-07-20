@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base href="../" />
+    @HEADER@
+    <title>reykfloeter - #@NAVTAG@</title>
+  </head>
+  <body>
+    <header class="container-fluid text-center align-center">
+      <h1><a href=".">reykfloeter</a> &#8211; #@NAVTAG@</h1>
+    </header>
+    @NAVBAR@
+    <section class="container-fluid">
+      <div class="row">
+        <div class="col-md-offset-1 col-md-6 col-sm-8">
+          <nav data-sblg-nav="1" data-sblg-navcontent="1" data-sblg-navtag="@NAVTAG@">
+            <article>
+              <header>
+                <h2><a href="${sblg-base}">${sblg-titletext}</a></h2>
+                <div>Posted by <address>${sblg-author}</address> on <time datetime="${sblg-datetime}">${sblg-datetime-fmt|%Y-%m-%d}</time></div>
+              </header>
+              <div>
+                ${sblg-aside}
+                <p class="more">
+                  <a href="${sblg-base}">Continue reading &#8594;</a>
+                </p>
+                @SOCIAL@
+              </div>
+            </article>
+          </nav>
+        </div>
+        @SIDEBAR@
+      </div>
+    </section>
+    @FOOTER@
+  </body>
+</html>

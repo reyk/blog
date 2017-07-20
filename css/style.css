@@ -1,0 +1,56 @@
+body { font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
+	font-size: 16px; font-style: normal; font-variant: normal;
+	font-weight: 400; background-color: #eeeeee; }
+body > header { padding: 2em 0; color: #dddddd; background-color: #336699;
+	margin: 0em; }
+body > header h1 { margin: 0; display: inline-block; }
+body > header h1 a { color: #eeeeee; }
+body > header div { display: inline; }
+
+nav.navbar { margin: 0em; }
+nav.navbar ul.nav > li { white-space: nowrap; float: left; }
+nav[data-sblg-nav] ul { list-style-type: none; padding-left: 0em; }
+nav[data-sblg-navcontent] ul { padding: 0em; }
+
+section header > div { padding: 0em 0em 0.62em; margin: 0; color: #999999;
+	margin-top: -0.38em; }
+section { margin: 0em; background: white; padding-bottom: 10em;
+	padding-top: 0.62em; }
+article { border-bottom: solid 1px #eeeeee; padding-bottom: 1em; }
+
+Footer { padding: 1em; text-align: center; font-size: smaller; color: #999999; }
+footer { background-color: #eeeeee; padding: 1em; }
+
+h1, h2, h3 { font-size: 24px; font-style: normal; font-variant: normal;
+	font-weight: 500; }
+h3 { font-size: 18px; }
+img { float: right; max-width: 62%; }
+pre { white-space: pre-wrap; }
+address, time { display: inline; font-style: normal; color: #666666;
+	font-weight: bold; }
+
+.sblg-tag::before { content: " #"; color: #999999; }
+.sblg-tag { color: #999999; }
+.tags, .tags-full { line-height: 1.4em; padding: 0em; }
+.tags-full { font-size: 4em; }
+.tag-cloud { font-size: 300%; }
+.tag-cloud-1 { font-size: 100%; opacity: 0.4; }
+.tag-cloud-2 { font-size: 110%; opacity: 0.6; }
+.tag-cloud-3 { font-size: 120%; opacity: 0.8; }
+.tag-cloud-4 { font-size: 130%; }
+.tag-cloud-5 { font-size: 140%; }
+.tag-cloud-6 { font-size: 150%; }
+.tag-cloud-7 { font-size: 160%; }
+.tag-cloud-8 { font-size: 170%; }
+.tag-cloud-9 { font-size: 180%; }
+.tag-cloud-10 { font-size: 190%; }
+.tag-cloud-11 { font-size: 200%; }
+.tag-cloud-12 { font-size: 210%; }
+.tag-cloud-13 { font-size: 220%; }
+.tag-cloud-14 { font-size: 230%; }
+.tag-cloud-15 { font-size: 240%; }
+.tag-cloud-16 { font-size: 250%; }
+.tag-cloud-17 { font-size: 260%; }
+.tag-cloud-19 { font-size: 270%; }
+.tag-cloud-20 { font-size: 280%; }
+.tag-cloud-21 { font-size: 290%; }
